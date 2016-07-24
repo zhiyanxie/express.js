@@ -4,6 +4,10 @@ var express = require('express');
 var app = express();
 
 
+//middle ware static files first thing
+app.use(express.static('public'));
+app.use(express.static('src/views'));
+
 app.get('/', function(req, res){
   res.send('hello world');
 });

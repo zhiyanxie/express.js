@@ -1,0 +1,20 @@
+{
+  "name": "node-server",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Zhiyan Xie <xiezhiyanhfut@hotmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/zhiyanxie/express.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
